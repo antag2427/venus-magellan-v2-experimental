@@ -1,0 +1,21 @@
+{
+  "sample_size": 100000,
+  "sample_min_candidate_factor": 1.1,
+  "sample_batch_factor": 1.5,
+  "random_state": 42,
+  "block_size": 512,
+  "local_radius": 2,
+  "k": 4,
+  "consensus_subset": 20000,
+  "anomaly_subset": 50000,
+  "anomaly_contamination": 0.01,
+  "isolation_estimators": 300,
+  "kmeans_n_init": 20,
+  "kmeans_max_iter": 500,
+  "gmm_n_init": 3,
+  "gmm_max_iter": 300,
+  "birch_threshold": 0.5,
+  "minibatch_batch_size": 2048,
+  "object_downsample_max_dim": 2048,
+  "output_prefix": "v2"
+}

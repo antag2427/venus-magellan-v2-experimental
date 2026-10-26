@@ -1,0 +1,27 @@
+{
+  "sample_size": 10000,
+  "sample_min_candidate_factor": 1.1,
+  "sample_batch_factor": 1.5,
+  "random_state": 42,
+  "block_size": 512,
+  "local_radius": 2,
+  "k": 4,
+  "consensus_subset": 5000,
+  "anomaly_subset": 5000,
+  "output_prefix": "magellan_pilot_example",
+  "raster_inputs": {
+    "radar": "../data/raw/venus.tif",
+    "height": "../data/raw/venus_height.tif",
+    "emissivity": "../data/raw/venus_emissivity.tif",
+    "slope": "../data/raw/venus_slope.tif",
+    "reflectivity": "../data/raw/venus_reflectivity.tif"
+  },
+  "output_root": "../outputs/pilot_example",
+  "core_window": {
+    "row": 915,
+    "col": 1854,
+    "height": 256,
+    "width": 256
+  },
+  "halo_policy": "require_full"
+}

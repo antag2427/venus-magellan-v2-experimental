@@ -1,0 +1,25 @@
+# Locally supplied real data and generated experiments
+/data/
+/inputs/
+/outputs/
+/figures/
+/runs/
+/models/
+/artifacts/
+
+# Python environments, caches and test-owned temporary files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+tests/.acceptance_test_*/
+tests/.pytest_tmp*/
+*.pending
+*.publishing
+
+# Local configuration and credentials (portable examples remain included)
+configs/*.local.json
+.env
+.env.*
+!.env.example
